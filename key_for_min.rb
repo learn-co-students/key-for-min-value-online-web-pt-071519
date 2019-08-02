@@ -2,5 +2,9 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+  name_hash.collect do |kid_name, age|
+    if age >= 1 
+    puts "#{name}"
+  end
 
 end
